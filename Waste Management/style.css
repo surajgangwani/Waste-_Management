@@ -1,0 +1,117 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #3ea506;
+}
+header {
+      width: 100%;
+      height: 100vh;
+      background: url("./Images/front3.jpg") no-repeat 50% 50%;
+      background-size: cover;
+      background-position: center;
+}
+.logo {
+      line-height: 40px;
+      position: fixed;
+      float: left;
+      margin: 16px 46px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
+}
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 40px;
+}
+
+nav ul {
+      line-height: 40px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+
+nav.black ul {
+      background: rgba(40, 86, 14,0.5);
+      line-height: 40px;
+}
+
+nav ul li {
+      display: inline-block;
+      padding: 16px 40px;;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+}
+
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+.front-heading {
+  border: 1px solid #000;
+  position: absolute;
+  right: auto;
+  down:auto;
+}
+/**********************************************************************************************************************
+ABOUT US SECTION
+**********************************************************************************************************************/
+.home-content-box{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+.home-content-box h3 {
+  font-weight: 800;
+  color: #fff;
+  font-size: 60px;
+}
+.home-content-box p{
+  font-weight: normal;
+  font-size: 24px;
+  color: #fff;
+}
+.home-content-box-inner{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.about-video {
+  display: inline-block;
+  float: left;
+  margin-right: 40px;
+  margin-left: 40px;
+  padding: 20px;
+
+}
+.about-content {
+  display: inline-block;
+
+}
+.aout-video h2 {
+  display: inline;
+}
